@@ -334,3 +334,55 @@ footer {
   .footer__copyright {
     color: WHITE;
   }
+
+  
+/* Small Phones */
+
+@media (max-width: 480px) {
+  
+    .project__description--title {
+      font-size: 24px;
+    }
+  
+    .modal {
+      flex-direction: column;
+      height: 1100px;
+      top: 90%;
+    }
+    .modal__half {
+      width: 100%;
+    }
+  
+    .cube__container {
+      display: none;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    .title {
+      font-size: 52px;
+    }
+  
+    .header__para {
+      font-size: 18px;
+    }
+  
+    .nav__link:first-child {
+      display: none;
+    }
+  
+    .project__description--para {
+      display: none;
+    }
+  
+    .project__description {
+      left: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .modal__half {
+      padding: 40px;
+    }
+  }
