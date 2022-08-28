@@ -116,3 +116,66 @@ body {
   .dark-theme .uk__btn {
     background-color: white;
   }
+
+
+  /* 
+
+ --- LANDING PAGE ---
+
+*/
+
+#landing-page {
+    min-height: 100vh;
+  }
+  
+  .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    max-width: 700px;
+  }
+  
+  .title{
+    font-size: 80px;
+  }
+  
+  .header-content {
+    position: relative;
+  }
+  .header__para {
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
+  }
+  .social__list {
+    margin-top: 16px;
+    display: flex;
+    
+  }
+  .social__link {
+    background-color: #6931b3;
+    color: white;
+    padding: 6px;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .flag {
+    width: 24px;
+  }
+  .scroll {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
