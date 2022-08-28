@@ -179,3 +179,49 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
+
+  /* 
+
+ --- NAV BAR STUFF ---
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* nav bar */
+    margin: 0 auto;
+    height: 100px;
+    padding: 0 20px;
+  }
+  
+  
+  
+  #footer-logo {
+    width: 50px;
+    filter: invert(0);
+  }
+  
+  .nav_link--list {
+    display: flex; /* Set nav links to be horizontally */
+  }
+  
+  .nav__link {
+    margin: 0 12px; /* Set spacing between links */
+  }
+  
+  .nav__link--anchor {
+    font-size: 16px;
+    color: #111111;
+    font-weight: 300;
+  }
+  
+  .fa-circle-half-stroke {
+    font-size: 20px;
+  }
+  
+  #moon {
+    background-color: white;
+  }
