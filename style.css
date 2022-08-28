@@ -7,3 +7,41 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+
+body {
+    overflow-x: hidden;
+  }
+  
+  li {
+    list-style-type: none; /* remove default stylings from lists */
+  }
+  
+  p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  b {
+    font-weight: 600;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  section {
+    background-color: rgb(245, 245, 245);
+    transition: all 600ms ease;
+  }
+  
+  .icon {
+    width: 34px;
+  }
+  
+  #git{
+    background-color: white;
+    width: 38px;
+  }
