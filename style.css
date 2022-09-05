@@ -338,10 +338,11 @@ footer {
   
 /* Small Phones */
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   
-    .project__description--title {
+    .project__description {
       font-size: 24px;
+      margin-left: 100px;
     }
   
     .modal {
